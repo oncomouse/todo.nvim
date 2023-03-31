@@ -108,7 +108,7 @@ local function search_projects(projects)
 	end
 
 	vim.fn.cursor(begin, 1)
-	vim.api.nvim_feedkeys("^", "x", true)
+	vim.api.nvim_feedkeys("^zz", "x", true)
 
 	return begin
 end
